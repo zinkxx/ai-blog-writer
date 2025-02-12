@@ -46,7 +46,7 @@ Kendi web siteniz için **SEO uyumlu, okunabilir ve kaliteli içerikler** oluşt
 ## ⚙ **Geliştirici Notları**
 
 ### 📂 **Dosya Yapısı**
-
+ai-blog-writer/ │── includes/ │ ├── ai-api.php # OpenAI API çağrılarının yapıldığı dosya │── assets/ │ ├── style.css # Admin paneli için özel stiller │ ├── script.js # AJAX tabanlı içerik üretme işlemleri │── templates/ │ ├── admin-page.php # Eklenti ayar sayfası │── generate.php # AJAX ile içerik üretme işlemi │── ai-blog-writer.php # Eklentinin ana dosyası │── README.md # Kullanım kılavuzu (bu dosya) │── LICENSE # MIT Lisansı
 
 ---
 
