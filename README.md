@@ -46,3 +46,40 @@ Kendi web siteniz için **SEO uyumlu, okunabilir ve kaliteli içerikler** oluşt
 ## ⚙ **Geliştirici Notları**
 
 ### 📂 **Dosya Yapısı**
+
+
+---
+
+## 🛠 **Gereksinimler**
+- **WordPress 5.5+**  
+- **PHP 7.4+**  
+- **OpenAI API Anahtarı (Kendi API anahtarınızı kullanmanız gerekir)**  
+
+---
+
+## 📌 **Sürüm Geçmişi**
+🔹 **v1.0.0** (2025-02-06)  
+- İlk sürüm yayınlandı 🎉  
+- OpenAI ile içerik üretimi eklendi  
+- AJAX ile dinamik içerik oluşturma özelliği eklendi  
+- Admin panel arayüzü tamamlandı  
+
+---
+
+## 📝 **Lisans**
+Bu proje **MIT Lisansı** ile lisanslanmıştır.  
+Detaylı bilgi için **[LICENSE](./LICENSE)** dosyasına bakabilirsiniz.  
+
+---
+
+## 👥 **Katkıda Bulunun**
+Her türlü geri bildirim ve katkı için lütfen **GitHub üzerinden issue açın** veya **Pull Request gönderin**.  
+
+📧 **İletişim:** [info@devtechnic.online](mailto:info@devtechnic.online)  
+🌐 **Web Sitesi:** [https://devtechnic.online](https://devtechnic.online)  
+🛠 **GitHub:** [https://github.com/zinkxx](https://github.com/zinkxx)  
+
+---
+
+⭐ **Bu eklenti işinize yaradıysa, GitHub reposuna bir yıldız bırakmayı unutmayın!** 😊  
+
