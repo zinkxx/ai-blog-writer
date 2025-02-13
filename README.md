@@ -46,11 +46,23 @@ Kendi web siteniz için **SEO uyumlu, okunabilir ve kaliteli içerikler** oluşt
 ## ⚙ **Geliştirici Notları**
 
 ### 📂 **Dosya Yapısı**
-ai-blog-writer/ │── includes/ │ ├── ai-api.php # OpenAI API çağrılarının yapıldığı dosya 
-│── ai-blog-writer.php # Eklentinin ana dosyası │── README.md # Kullanım kılavuzu (bu dosya) │── LICENSE # MIT Lisansı
-│── assets/ │ ├── style.css # Admin paneli için özel stiller │ ├── script.js # AJAX tabanlı içerik üretme işlemleri 
-│── templates/ │ ├── admin-page.php # Eklenti ayar sayfası │── generate.php # AJAX ile içerik üretme işlemi 
 
+ai-blog-writer/
+│── includes/
+│   ├── ai-api.php        # OpenAI API entegrasyonu
+│   ├── seo-optimizer.php # SEO için başlık, meta açıklama ve anahtar kelime oluşturma
+│   ├── logger.php        # Loglama sistemi
+│   ├── settings.php      # Ayarlar sayfası
+│── assets/
+│   ├── style.css         # Admin paneli için stil dosyası
+│   ├── script.js         # AJAX tabanlı içerik oluşturma işlemleri
+│── templates/
+│   ├── admin-page.php    # Admin paneli sayfası
+│   ├── settings-page.php # Ayarlar sayfası
+│── generate.php          # AJAX işlemleri için PHP dosyası
+│── ai-blog-writer.php    # Ana eklenti dosyası
+│── README.md             # Kullanım kılavuzu (bu dosya)
+│── LICENSE               # MIT Lisans dosyası
 
 ---
 
@@ -67,6 +79,12 @@ ai-blog-writer/ │── includes/ │ ├── ai-api.php # OpenAI API çağr
 - OpenAI ile içerik üretimi eklendi  
 - AJAX ile dinamik içerik oluşturma özelliği eklendi  
 - Admin panel arayüzü tamamlandı  
+
+🔹 **v1.1.0** (2025-02-13)
+- SEO optimizasyonu eklendi
+- Loglama ve analiz sistemi entegre edildi
+- Ayarlar sayfası geliştirildi
+- Çeşitli hata düzeltmeleri yapıldı
 
 ---
 
