@@ -28,3 +28,18 @@ button {
 button:hover {
     background: #005177;
 }
+
+#ai-writer-container {
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#generate-content-btn {
+    background: #0073aa;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
